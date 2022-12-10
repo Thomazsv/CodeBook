@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-@media (max-width: 2500px){
+@media (max-width: 5000px){
 @keyframes barra {
   0% {
     left: 100%;
@@ -146,6 +146,7 @@ a:link, a:visited {
   justify-self: center;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .textop1 {
