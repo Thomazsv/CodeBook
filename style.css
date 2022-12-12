@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-@media (max-width: 5000px){
+/* @media (max-width: 5000px){ */
 @keyframes barra {
   0% {
     left: 100%;
@@ -197,7 +197,7 @@ a:link, a:visited {
 }
 
 .listanav li:hover {
-  background-color: #70727346;
+  background-color: #70727365;
 }
 
 .listanav li a {
@@ -235,9 +235,6 @@ a:link, a:visited {
   html{
     font-size: 60%;
   }
-  .textop1{
-    background-color: pink;
-  }
 }
 @media (max-width: 920px){
   html{
@@ -260,6 +257,13 @@ a:link, a:visited {
   .navegacao{
     height: 13.1rem;
   }
+  .listanav {
+    /* background-color: #DDE2E4; */
+    width: 20%;
+  }
+  .listanav li{
+    background-color: #DDE2E4;
+  }
 } 
 @media (max-width: 640px){
   .pagina1{
@@ -269,4 +273,9 @@ a:link, a:visited {
     height: 16.1rem;
   }
 }
+@media (max-height: 700px){
+  .listanav li{
+    background-color: #DDE2E4;
+  }
 }
+/* } */
